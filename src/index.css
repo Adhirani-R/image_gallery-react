@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  }
+.gallery
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgba(11, 99, 67, 0.781);
+  width: 73%;
+  height: fit-content;
+  margin: 3% 0 1% 12%;
+  padding: 1%; 
+  gap:1%;
+  
+
+}
+.gallery-item {
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border: 3px solid #242222;
+  text-align: center;
+  padding: 16px;
+  
+}
